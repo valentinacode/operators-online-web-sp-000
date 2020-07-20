@@ -1,2 +1,6 @@
 def un_safe(speed)
-  if 
+  if speed > 60
+    puts "true"
+    
+    
+    
