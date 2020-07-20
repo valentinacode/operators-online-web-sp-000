@@ -3,4 +3,8 @@ def un_safe(speed)
     puts "true"
     
   elsif 
+  speed < 40
+  puts "true"
+  
+else 
     
