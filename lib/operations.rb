@@ -18,6 +18,6 @@ def not_safe?(speed)
 	  puts "Safe"
 end 
 	
-	if un_safe < 40 ? 
+	if un_safe < 40 ? :safe 
 
 
