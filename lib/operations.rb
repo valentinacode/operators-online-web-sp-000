@@ -1,9 +1,9 @@
 def unsafe?(speed)
 
 if speed < 40
-    "baby"
+   puts "Safe!"
 else
-    "not a baby"
+   puts "Not Safe!"
 end
   
 
@@ -12,8 +12,11 @@ end
 
 
 def not_safe?(speed)
-	
-end
+	if speed > 40
+	  puts "Unsafe"
+	else 
+	  puts "Safe"
+end 
 	
 
 
